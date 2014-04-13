@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:orientation="horizontal"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+       >
+        <ImageView
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:src="@drawable/search_button"
+            android:scaleType="fitXY"
+            android:paddingTop="2dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="7dip" />
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:background="@drawable/edittext_background"
+            android:layout_height="42dp"
+            android:hint="@string/searchable_hint"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionSearch" />
+    </LinearLayout>
+    <com.yamin.kk.view.MyListView
+        android:id="@id/android:list"
+        android:layout_margin="5dp"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/item_divider"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/list"
+    android:layout_height="match_parent"
+    android:divider="?attr/background_menu_divider"
+    android:dividerHeight="0.2dp"
+    android:layout_width="208dp"
+    android:cacheColorHint="#0000"
+    android:fastScrollEnabled="true"
+    android:background="?attr/background_menu">
+
+</ListView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/advanced_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <org.videolan.vlc.gui.expandable.SpeedSelector
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#8FFF"
+            tools:ignore="PxUsage" />
+
+        <org.videolan.vlc.gui.expandable.TimeSleep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#8FFF"
+            tools:ignore="PxUsage" />
+
+        <org.videolan.vlc.gui.expandable.JumpToTime
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/add_subtitle_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#8FFF"
+            tools:ignore="PxUsage" />
+
+        <TextView
+            android:id="@+id/add_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_item"
+            android:text="@string/subtitle_label"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</ScrollView>

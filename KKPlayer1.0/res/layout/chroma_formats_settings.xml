@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_round_selector_holo_light"
+    android:orientation="vertical" >
+
+    <com.yamin.kk.view.MyListView
+        android:id="@+id/chroma_formats_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/item_divider"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="私信"
+            android:textColor="#6CA2C8"
+            android:textSize="15sp" />
+        <!-- -            android:layout_margin="10dp" -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/title_flag"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/curr_flag" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

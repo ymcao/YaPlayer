@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+       <!--  
+      <TextView
+        android:id="@+id/sortby"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/list_top_selector_holo_light"
+        android:gravity="center"
+        android:text="@string/sortby"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/list_center_selector_holo_light"
+        android:gravity="center"
+        android:text="@string/refresh"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+     <TextView
+        android:id="@+id/equalizer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/list_center_selector_holo_light"
+        android:gravity="center"
+        android:text="@string/equalizer"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+      <TextView
+        android:id="@+id/preferences"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/list_bottom_selector_holo_light"
+        android:gravity="center"
+        android:text="@string/preferences"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+   -->
+    <TextView
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/list_round_selector_holo_light"
+        android:gravity="center"
+        android:text="@string/quit"
+        android:textColor="#FD4A2E"
+        android:textSize="15sp" />
+
+</LinearLayout>
