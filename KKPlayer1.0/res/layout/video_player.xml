@@ -96,8 +96,32 @@
             android:layout_below="@+id/player_overlay_header"
             android:gravity="bottom|center_horizontal"
             android:orientation="vertical"
-            android:padding="10dp" >
+            android:padding="5dp" >
 
+            <TextView
+                android:id="@+id/audio_value_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+
+            <com.yamin.kk.vlc.widget.VerticalSeekBar
+                android:id="@+id/audio_overlay_seekbar"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginRight="2dp"
+                android:maxHeight="2dip"
+                android:minHeight="2dip"
+                android:padding="15dp"
+                android:progressDrawable="@drawable/po_seekbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <ImageView
+                android:id="@+id/audio_sound_icon"
+                android:layout_width="36dp"
+                android:layout_height="56dp"
+                android:src="@drawable/sound_two" />
+
+            <!--
             <ImageButton
                 android:id="@+id/player_overlay_subtitle"
                 android:layout_width="30dp"
@@ -121,7 +145,7 @@
                 android:visibility="gone"
                 android:background="@drawable/dots"
                 android:onClick="showAdvancedOptions" />
-            
+            -->
         </LinearLayout>
 
         <RelativeLayout
@@ -147,7 +171,7 @@
                 android:layout_width="45dip"
                 android:layout_height="45dip"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="2dp"
+                android:layout_marginLeft="1dp"
                 android:layout_toRightOf="@+id/lock_overlay_button"
                 android:background="@drawable/ic_backward" />
 
@@ -172,8 +196,8 @@
                 android:layout_toRightOf="@+id/player_overlay_time"
                 android:maxHeight="2dip"
                 android:minHeight="2dip"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
                 android:progressDrawable="@drawable/po_seekbar"
                 android:thumb="@drawable/seekbar_thumb" />
 
@@ -194,7 +218,7 @@
                 android:layout_width="45dip"
                 android:layout_height="45dip"
                 android:layout_centerVertical="true"
-                android:layout_marginRight="2dp"
+                android:layout_marginRight="1dp"
                 android:layout_toLeftOf="@+id/player_overlay_size"
                 android:background="@drawable/ic_forward" />
 
@@ -204,7 +228,6 @@
                 android:layout_height="50dip"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="2dp"
                 android:background="@drawable/ic_size" />
         </RelativeLayout>
     </RelativeLayout>

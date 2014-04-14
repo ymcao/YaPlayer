@@ -35,14 +35,14 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>
-         <Button
-                android:id="@+id/online_menu"
+        <Button
+                android:id="@+id/refresh_menu"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="left|center_vertical"
                 android:layout_marginRight="5dp"
                 android:layout_toLeftOf="@+id/search_bar_menu"
-                android:background="@drawable/online_button" />
+                android:background="@drawable/refresh_button" />
         
           <Button
                 android:id="@+id/search_bar_menu"
@@ -50,9 +50,17 @@
                 android:layout_height="45dp"
                 android:visibility="visible"
                 android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
+                android:layout_toLeftOf="@+id/online_menu"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/search_button" />
+              <Button
+                android:id="@+id/online_menu"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/online_button" />
       
     </RelativeLayout>
 

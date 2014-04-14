@@ -79,6 +79,7 @@ public class MainActivity extends BaseActivity implements OnActionSheetSelected 
 	private LinearLayout titile_bar_ll;
 	private Button search_button;
 	private Button online_button;
+	private Button refresh_button;
 	private TextView text_view;
 	private boolean isMenOpen = false;
 	protected static final String ACTION_SHOW_PROGRESSBAR = "org.videolan.vlc.gui.ShowProgressBar";
@@ -362,7 +363,11 @@ public class MainActivity extends BaseActivity implements OnActionSheetSelected 
 
 		} else if (view == online_button) {
 			onOpenMRL();
-		} else if (view == titile_bar_ll) {
+		}
+		else if(view==refresh_button){
+			//刷新多媒体内容
+			 MediaLibrary.getInstance(this).loadMediaItems(this, true);
+		}	else if (view == titile_bar_ll) {
 			if (isMenOpen) {
 				resideMenu.closeMenu();
 			} else {
@@ -384,6 +389,7 @@ public class MainActivity extends BaseActivity implements OnActionSheetSelected 
 		titile_bar_ll = (LinearLayout) findViewById(R.id.title_bar_LL);
 		search_button = (Button) findViewById(R.id.search_bar_menu);
 		online_button = (Button) findViewById(R.id.online_menu);
+		refresh_button= (Button) findViewById(R.id.refresh_menu);
 		main_fragment = (FrameLayout) findViewById(R.id.main_fragment);
 		text_view = (TextView) findViewById(R.id.title_bar_text);
 		// attach to current activity;
@@ -416,6 +422,7 @@ public class MainActivity extends BaseActivity implements OnActionSheetSelected 
 		titile_bar_ll.setOnClickListener(this);
 		search_button.setOnClickListener(this);
 		online_button.setOnClickListener(this);
+		refresh_button.setOnClickListener(this);
 		/* Initialize UI variables */
 		mInfoLayout = findViewById(R.id.info_layout);
 		mInfoProgress = (ProgressBar) findViewById(R.id.info_progress);

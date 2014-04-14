@@ -12,11 +12,11 @@
         android:layout_marginLeft="10dp"
         android:text="@string/open_mrl_dialog_title"
         android:textColor="@color/holo_blue_light"
-        android:textSize="18dip" />
+        android:textSize="16dip" />
 
     <EditText
         android:id="@+id/webSiteEdit"
-        android:layout_width="150dp"
+        android:layout_width="240dp"
         android:layout_height="60dp"
         android:layout_below="@+id/aboutDilogTxt"
         android:layout_centerHorizontal="true"
@@ -47,7 +47,7 @@
             android:layout_height="40dp"
             android:background="@drawable/button_selector"
             android:text="@string/cancel"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="30dp"
             android:textColor="@color/white" />
     </LinearLayout>
 
