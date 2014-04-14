@@ -5,11 +5,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaLibrary;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.interfaces.ISortable;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,7 +19,6 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.yamin.kk.R;
@@ -35,6 +29,10 @@ import com.yamin.kk.service.AudioServiceController;
 import com.yamin.kk.view.KKViewPager;
 import com.yamin.kk.view.KKViewPager.OnPageChange;
 import com.yamin.kk.view.KKViewPagerCotroller;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaLibrary;
+import com.yamin.kk.vlc.WeakHandler;
+import com.yamin.kk.vlc.interfaces.ISortable;
 
 public class AudioFragment extends SherlockFragment implements ISortable {
 

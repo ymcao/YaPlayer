@@ -24,9 +24,6 @@ import java.io.File;
 import java.util.Comparator;
 import java.util.List;
 
-import org.videolan.vlc.MediaDatabase;
-import org.videolan.vlc.VLCApplication;
-
 import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
@@ -41,6 +38,8 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.MediaDatabase;
+import com.yamin.kk.vlc.VLCApplication;
 
 public class BrowserAdapter extends ArrayAdapter<File>
                             implements Comparator<File> {

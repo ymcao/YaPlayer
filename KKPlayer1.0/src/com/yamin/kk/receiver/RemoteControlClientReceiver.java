@@ -21,15 +21,15 @@ package com.yamin.kk.receiver;
 
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Util;
-
-import com.yamin.kk.service.AudioService;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
 import android.view.KeyEvent;
+
+import com.yamin.kk.service.AudioService;
+import com.yamin.kk.vlc.Util;
 
 /**
  * Small class to receive events passed out by the remote controls (wired, bluetooth, lock screen, ...)

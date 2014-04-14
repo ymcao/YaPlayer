@@ -22,9 +22,9 @@ package org.videolan.libvlc;
 
 import java.util.ArrayList;
 
-import org.videolan.vlc.Media;
-
 import android.os.Bundle;
+
+import com.yamin.kk.vlc.Media;
 
 /**
  * Java/JNI wrapper for the libvlc_media_list_t structure.

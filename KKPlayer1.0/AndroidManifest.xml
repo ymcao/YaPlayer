@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     
     <application 
-        android:name="org.videolan.vlc.VLCApplication"
+        android:name="com.yamin.kk.vlc.VLCApplication"
         android:debuggable="true"
         android:label="@string/app_name" 
         android:icon="@drawable/ic_launcher">
@@ -40,12 +40,6 @@
          
          <activity
             android:name="com.yamin.kk.mainui.CompatErrorActivity" />
-        <activity
-            android:name="com.yamin.kk.mainui.PreferencesActivity" />
-        <activity
-            android:name="com.yamin.kk.mainui.BrowserActivity"
-            android:label="@string/mediafiles"
-            android:theme="@style/Theme.VLC.Basic" />
         <activity
             android:name="com.yamin.kk.mainui.DebugLogActivity" />
         <activity

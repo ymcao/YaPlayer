@@ -31,11 +31,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 import org.videolan.libvlc.LibVlcUtil;
-import org.videolan.vlc.BitmapCache;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MurmurHash;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -54,6 +49,11 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.BitmapCache;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MurmurHash;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCApplication;
 
 public class AudioUtil {
     public final static String TAG = "KKPlayer/AudioUtil";

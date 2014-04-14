@@ -41,14 +41,7 @@ import org.videolan.libvlc.EventHandler;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
 import org.videolan.libvlc.MediaList;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaDatabase;
-import org.videolan.vlc.RepeatType;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.interfaces.IAudioService;
-import org.videolan.vlc.interfaces.IAudioServiceCallback;
+
 import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -84,6 +77,14 @@ import com.yamin.kk.mainui.MainActivity;
 import com.yamin.kk.mainui.VideoPlayerActivity;
 import com.yamin.kk.receiver.RemoteControlClientReceiver;
 import com.yamin.kk.utils.AudioUtil;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaDatabase;
+import com.yamin.kk.vlc.RepeatType;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCApplication;
+import com.yamin.kk.vlc.WeakHandler;
+import com.yamin.kk.vlc.interfaces.IAudioService;
+import com.yamin.kk.vlc.interfaces.IAudioServiceCallback;
 
 public class AudioService extends Service {
 

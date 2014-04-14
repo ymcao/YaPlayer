@@ -31,8 +31,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.Util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -44,6 +42,8 @@ import android.view.Display;
 import com.yamin.kk.R;
 import com.yamin.kk.fragment.VideoFragment;
 import com.yamin.kk.mainui.MainActivity;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.Util;
 
 public class Thumbnailer implements Runnable {
     public final static String TAG = "KKPlayer/Thumbnailer";

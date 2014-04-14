@@ -5,16 +5,6 @@ import java.util.List;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaDatabase;
-import org.videolan.vlc.MediaGroup;
-import org.videolan.vlc.MediaLibrary;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VlcRunnable;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.gui.CommonDialogs;
-import org.videolan.vlc.interfaces.ISortable;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -45,6 +35,15 @@ import com.yamin.kk.mainui.MainActivity;
 import com.yamin.kk.mainui.MediaInfoActivity;
 import com.yamin.kk.mainui.VideoPlayerActivity;
 import com.yamin.kk.utils.Thumbnailer;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaDatabase;
+import com.yamin.kk.vlc.MediaGroup;
+import com.yamin.kk.vlc.MediaLibrary;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VlcRunnable;
+import com.yamin.kk.vlc.WeakHandler;
+import com.yamin.kk.vlc.gui.CommonDialogs;
+import com.yamin.kk.vlc.interfaces.ISortable;
 
 public class VideoFragment extends SherlockGridFragment implements ISortable {
 

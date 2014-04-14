@@ -25,10 +25,6 @@ import java.nio.ByteBuffer;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
 import org.videolan.libvlc.TrackInfo;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaLibrary;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.WeakHandler;
 
 import android.app.ListActivity;
 import android.graphics.Bitmap;
@@ -44,6 +40,10 @@ import android.widget.TextView;
 
 import com.yamin.kk.R;
 import com.yamin.kk.fragment.MediaInfoAdapter;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaLibrary;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.WeakHandler;
 
 public class MediaInfoActivity extends ListActivity {
 

@@ -19,12 +19,6 @@
  *****************************************************************************/
 package com.yamin.kk.fragment;
 
-import org.videolan.vlc.RepeatType;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.gui.CommonDialogs;
-import org.videolan.vlc.gui.CommonDialogs.MenuType;
-import org.videolan.vlc.interfaces.IAudioPlayer;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -48,6 +42,11 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.yamin.kk.R;
 import com.yamin.kk.mainui.MainActivity;
 import com.yamin.kk.service.AudioServiceController;
+import com.yamin.kk.vlc.RepeatType;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.gui.CommonDialogs;
+import com.yamin.kk.vlc.gui.CommonDialogs.MenuType;
+import com.yamin.kk.vlc.interfaces.IAudioPlayer;
 
 public class AudioPlayerFragment extends SherlockFragment implements IAudioPlayer {
     public final static String TAG = "KKPlayer/AudioPlayerFragment";

@@ -4,14 +4,8 @@ import java.util.HashMap;
 
 import org.videolan.libvlc.LibVlcException;
 import org.videolan.libvlc.LibVlcUtil;
-import org.videolan.vlc.MediaLibrary;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCCallbackTask;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.gui.CompatErrorActivity;
 
 import android.annotation.TargetApi;
-import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,7 +13,6 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -65,6 +58,10 @@ import com.yamin.kk.view.ActionSheet.OnActionSheetSelected;
 import com.yamin.kk.view.CustomDialog;
 import com.yamin.kk.view.CustomDialogBottom;
 import com.yamin.kk.view.MyListView;
+import com.yamin.kk.vlc.MediaLibrary;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCCallbackTask;
+import com.yamin.kk.vlc.WeakHandler;
 
 /**
  * 

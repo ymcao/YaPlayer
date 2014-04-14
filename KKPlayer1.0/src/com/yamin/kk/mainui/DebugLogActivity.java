@@ -22,7 +22,6 @@ package com.yamin.kk.mainui;
 
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Util;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -32,6 +31,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.Util;
 
 public class DebugLogActivity extends Activity {
     public final static String TAG = "KKPlayer/DebugLogActivity";

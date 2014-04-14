@@ -2,8 +2,6 @@ package com.yamin.kk.adapter;
 
 import java.util.Comparator;
 
-import org.videolan.vlc.Media;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.Media;
 
 public class SearchResultAdapter extends ArrayAdapter<Media>
         implements Comparator<Media> {

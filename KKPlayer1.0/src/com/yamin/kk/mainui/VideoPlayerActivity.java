@@ -41,13 +41,6 @@ import org.videolan.libvlc.EventHandler;
 import org.videolan.libvlc.IVideoPlayer;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaDatabase;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.gui.CommonDialogs;
-import org.videolan.vlc.gui.CommonDialogs.MenuType;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -98,6 +91,13 @@ import com.yamin.kk.R;
 import com.yamin.kk.fragment.AudioPlayerFragment;
 import com.yamin.kk.service.AudioServiceController;
 import com.yamin.kk.utils.Common;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaDatabase;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCApplication;
+import com.yamin.kk.vlc.WeakHandler;
+import com.yamin.kk.vlc.gui.CommonDialogs;
+import com.yamin.kk.vlc.gui.CommonDialogs.MenuType;
 
 public class VideoPlayerActivity extends Activity implements IVideoPlayer {
     public final static String TAG = "KKPlayer/VideoPlayerActivity";

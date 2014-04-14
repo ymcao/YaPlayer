@@ -24,10 +24,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaLibrary;
-import org.videolan.vlc.WeakHandler;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -42,6 +38,9 @@ import com.actionbarsherlock.app.SherlockListFragment;
 import com.yamin.kk.R;
 import com.yamin.kk.adapter.AudioListAdapter;
 import com.yamin.kk.service.AudioServiceController;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaLibrary;
+import com.yamin.kk.vlc.WeakHandler;
 
 public class AudioListFragment extends SherlockListFragment {
 

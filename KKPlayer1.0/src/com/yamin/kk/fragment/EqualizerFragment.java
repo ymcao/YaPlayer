@@ -21,10 +21,6 @@ package com.yamin.kk.fragment;
 
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
-import org.videolan.vlc.interfaces.OnEqualizerBarChangeListener;
-import org.videolan.vlc.widget.EqualizerBar;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -49,6 +45,10 @@ import android.widget.Spinner;
 import android.widget.ToggleButton;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCApplication;
+import com.yamin.kk.vlc.interfaces.OnEqualizerBarChangeListener;
+import com.yamin.kk.vlc.widget.EqualizerBar;
 
 public class EqualizerFragment extends Fragment {
 

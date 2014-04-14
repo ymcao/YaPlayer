@@ -1,7 +1,6 @@
 package com.yamin.kk.fragment;
 
 import org.videolan.libvlc.LibVLC;
-import org.videolan.vlc.Util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,7 +10,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ListView;

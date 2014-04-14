@@ -20,20 +20,13 @@
 
 package com.yamin.kk.fragment;
 
-import org.videolan.vlc.interfaces.IAudioPlayer;
-import org.videolan.vlc.interfaces.IAudioPlayerControl;
-
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.view.ContextMenu;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -46,7 +39,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.yamin.kk.R;
-import com.yamin.kk.fragment.AudioPlayerFragment;
+import com.yamin.kk.vlc.interfaces.IAudioPlayer;
+import com.yamin.kk.vlc.interfaces.IAudioPlayerControl;
 
 public class AudioMiniPlayer extends Fragment implements IAudioPlayer {
     public static final String TAG = "KKPlayer/AudioMiniPlayer";

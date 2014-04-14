@@ -9,9 +9,6 @@ import java.util.ListIterator;
 import java.util.regex.Pattern;
 
 import org.videolan.libvlc.LibVLC;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.Util;
-import org.videolan.vlc.VLCApplication;
 
 import android.content.Context;
 import android.os.Build;
@@ -25,6 +22,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.yamin.kk.R;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.Util;
+import com.yamin.kk.vlc.VLCApplication;
 
 public class DirectoryAdapter extends BaseAdapter {
     public final static String TAG = "VLC/DirectoryAdapter";

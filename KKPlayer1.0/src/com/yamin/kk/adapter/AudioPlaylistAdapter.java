@@ -24,9 +24,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.videolan.vlc.BitmapCache;
-import org.videolan.vlc.Media;
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -39,6 +36,8 @@ import android.widget.TextView;
 
 import com.yamin.kk.R;
 import com.yamin.kk.utils.AudioUtil;
+import com.yamin.kk.vlc.BitmapCache;
+import com.yamin.kk.vlc.Media;
 
 public class AudioPlaylistAdapter extends BaseExpandableListAdapter {
 

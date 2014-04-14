@@ -4,10 +4,6 @@ package com.yamin.kk.fragment;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaDatabase;
-import org.videolan.vlc.MediaLibrary;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
@@ -30,6 +26,9 @@ import com.yamin.kk.adapter.SearchResultAdapter;
 import com.yamin.kk.mainui.VideoPlayerActivity;
 import com.yamin.kk.service.AudioServiceController;
 import com.yamin.kk.view.MyListView;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaDatabase;
+import com.yamin.kk.vlc.MediaLibrary;
 
 public class SearchFragment extends SherlockListFragment {
 

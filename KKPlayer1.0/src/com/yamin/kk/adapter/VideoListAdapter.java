@@ -24,11 +24,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Locale;
 
-import org.videolan.vlc.BitmapCache;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.MediaGroup;
-import org.videolan.vlc.Util;
-
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
@@ -44,6 +39,10 @@ import android.widget.TextView;
 
 import com.yamin.kk.R;
 import com.yamin.kk.fragment.VideoFragment;
+import com.yamin.kk.vlc.BitmapCache;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.MediaGroup;
+import com.yamin.kk.vlc.Util;
 
 public class VideoListAdapter extends ArrayAdapter<Media>
                                  implements Comparator<Media> {

@@ -25,12 +25,6 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.videolan.vlc.RepeatType;
-import org.videolan.vlc.interfaces.IAudioPlayer;
-import org.videolan.vlc.interfaces.IAudioPlayerControl;
-import org.videolan.vlc.interfaces.IAudioService;
-import org.videolan.vlc.interfaces.IAudioServiceCallback;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -41,6 +35,12 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import com.yamin.kk.vlc.RepeatType;
+import com.yamin.kk.vlc.interfaces.IAudioPlayer;
+import com.yamin.kk.vlc.interfaces.IAudioPlayerControl;
+import com.yamin.kk.vlc.interfaces.IAudioService;
+import com.yamin.kk.vlc.interfaces.IAudioServiceCallback;
 
 public class AudioServiceController implements IAudioPlayerControl {
     public static final String TAG = "VLC/AudioServiceContoller";

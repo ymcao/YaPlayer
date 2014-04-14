@@ -4,10 +4,6 @@ package com.yamin.kk.adapter;
 import org.videolan.libvlc.EventHandler;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.LibVlcException;
-import org.videolan.vlc.Media;
-import org.videolan.vlc.VLCApplication;
-import org.videolan.vlc.WeakHandler;
-import org.videolan.vlc.gui.DirectoryAdapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -22,6 +18,9 @@ import android.widget.TextView;
 
 import com.yamin.kk.R;
 import com.yamin.kk.utils.AudioUtil;
+import com.yamin.kk.vlc.Media;
+import com.yamin.kk.vlc.VLCApplication;
+import com.yamin.kk.vlc.WeakHandler;
 
 public class HistoryAdapter extends BaseAdapter {
     public final static String TAG = "VLC/HistoryAdapter";
