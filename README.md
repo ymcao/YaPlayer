@@ -2,7 +2,10 @@
 
 需要依赖ActionBarSherlock和WheelView，这两个框架网站很多，Github上也有<br>
 
-参考文章:<br>
+  参考文章:<br>
+http://www.cnblogs.com/dwayne/archive/2012/12/21/vlc_android.html<br>
+
+http://blog.csdn.net/vertx/article/details/8559385<br>
 
 https://github.com/videolan/vlc.git<br>
 
