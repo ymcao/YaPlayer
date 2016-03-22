@@ -1,5 +1,7 @@
 基于ffmpeg和VLC编译的视频编解码播放器，支持WAV,AVI,MP4等等主流视频格式\
 
+需要依赖ActionBarSherlock和WheelView，这两个框架网站很多，Github上也有<br>
+
 参考文章:<br>
 
 https://github.com/videolan/vlc.git<br>
