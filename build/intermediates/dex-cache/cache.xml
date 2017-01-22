@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/yplayer/log/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="17c3605714f2990f621729016cd5b7926e622311">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/yplayer-log-unspecified_98301c8d0aba89ead9f7a46e7fb7c14cdb27d4fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.6/3562c66f648480d3bd4f76cff722488ced13445b/kotlin-runtime-1.0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3562c66f648480d3bd4f76cff722488ced13445b">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/kotlin-runtime-1.0.6_a557e4096d7d736f6873437d212cf8ecf10a54e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_773a045cb4e862ccb2014c7ba29294cddf03d78f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_ffd84bd710caf06b02a2da31b599435f11f8eb5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_4963daa4747de01c19b2af9d8821dc850b5d76b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_631a65f5f6bf19b4cbd361cced34ce5bb60e6d47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_b87e0d051637869e29b466af562bf09790210bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e25720811fa885a8d0b37bf879c07b213cde2dd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.54.android/de873c13032fff0b1dcab39a6fb14a3505bc92bb/fastjson-1.1.54.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de873c13032fff0b1dcab39a6fb14a3505bc92bb">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/fastjson-1.1.54.android_2e67706d37a55b902b909573a678c5bbbff5b75a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/yplayer/vlcplayer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4d5d2f8665e36f999dc4ecd8721240c77528ba2">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/yplayer-vlcplayer-unspecified_f742b2dc58784bba0c6eb6731f5cd6016072a873.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_8b6d538a5b34b666f9bc98224f1d160ff91154ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_0f0cc8d139875fa1e0cf7e39da13167dc4b9b174.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_fd4d6ae3c24ebd33e1f6c4483ac5d23569063f06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_4b84cffb55128fbc1d949f97586db61f3ad33456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_983e9ee19bc68ea5f5f3e3713068dea2ac5f0fe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_0b375bd007555421a98745de166c9dc56fe169af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_ca9cc7e6371bf526604ea015304686a53e425838.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_9af274b4ca423f9e1602104da1b1c138827d9a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_f55644ee19cab1c56e6d977e7e1cd4a5871efdef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_89084092d9efd4d4c4b470eefb980dc6dd06e34a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_081ac33fef0518cc4d95c3cb639b5dcab6ad8df7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.6/d19acb6ed49b9c48228c0e5dff8071fce23be4b8/kotlin-stdlib-1.0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d19acb6ed49b9c48228c0e5dff8071fce23be4b8">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.0.6_2b5b6f17e516a9e75aebffc74325a59c1f382626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/caoyamin/Documents/yplayer/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/caoyamin/Documents/yplayer/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a40b9c8ad7cc6beb479859b418cbc1590df81d68.jar" />
+    </item>
+
+</items>
