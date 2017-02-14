@@ -1,18 +1,22 @@
-基于ffmpeg和VLC编译的视频编解码播放器，支持WAV,AVI,MP4等等主流视频格式\
+基于FFMpeg和VLC编译的视频编解码播放器，支持WAV,AVI,MP4等等主流视频格式\
 
-需要依赖ActionBarSherlock和WheelView，这两个框架网站很多，Github上也有<br>
+VLC编译参考<br>
+[http://blog.csdn.net/thundon/article/details/44458061]
+(http://blog.csdn.net/thundon/article/details/44458061)
 
-  参考文章:<br>
-http://www.cnblogs.com/dwayne/archive/2012/12/21/vlc_android.html<br>
+Android自带的Mediacodec<br>
+[http://blog.csdn.net/guojin08/article/details/27555473](http://blog.csdn.net/guojin08/article/details/27555473)
 
-http://blog.csdn.net/vertx/article/details/8559385<br>
 
-https://github.com/videolan/vlc.git<br>
+VlcVideoView
+ [https://github.com/mengzhidaren/Vlc-sdk-lib](https://github.com/mengzhidaren/Vlc-sdk-lib)----->感谢作者
 
-http://apple4us.com/2011/01/html5-video-war-part-1.html<br>
+ ##FFMpeg学习文章:<br>
 
-http://blog.csdn.net/leixiaohua1020/article/details/11842919<br>
+ [http://blog.csdn.net/leixiaohua1020/article/details/11842919](http://blog.csdn.net/leixiaohua1020/article/details/11842919)
+ 
+  [http://blog.csdn.net/axdc_qa_team/article/details/4204358](http://blog.csdn.net/axdc_qa_team/article/details/4204358)
 
-http://blog.csdn.net/axdc_qa_team/article/details/4204358<br>
+ [http://blog.csdn.net/axdc_qa_team/article/details/4204358](http://blog.csdn.net/axdc_qa_team/article/details/4204358)
 
 
